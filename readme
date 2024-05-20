@@ -1,0 +1,28 @@
+1) Designed a robust and advanced Selenium Automation Framework from Scratch
+
+2) Leveraging Java Concepts like Enums, ThreadLocal for parallel execution , Custom Annotations , Exception Handling in a Testing Framework
+
+3) Implementing Page Object model design pattern , TestNG & Maven integration to help in automation .
+
+4) Creating beautiful & robust HTML reports using Extent Report with all details 
+
+5) Creating lots of reusable methods & utility methods as following-
+   DatapreoviderUtils
+   ExcelUtils
+   PropertyUtils
+   SnapshotUtils
+   
+6) Created framework in such a way like it gives all the control to the developer to do changes dynamically without touching code base 
+   Thus reusability & maintanance effort will be reduced.   
+   
+   
+7) Listeners implemented with customised and dynamic reporting integrated .
+
+8) Framework is open for extension and close for modification, thus followed the SOLID Design p[rinceiples while implementing .
+
+9) Parallel & cross browser testing have bee implemented with open for CI CD integration .
+
+10) No hard coding done, No static wait implemented , no direct use of custom selenium APIs, everything have been wrapped behind the scenes . 
+    
+11) Can be easily integrated with docker containers and ELK stack as well .    
+   

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.qa.tests.DP1ProductTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testDPIProductSlideDuration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.DP1ProductTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
